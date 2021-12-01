@@ -2,8 +2,7 @@
 {
 String dep="Java",institute="Payilagam";
 private int salary=1000;
-	
-public static void main(String[]args)	
+	public static void main(String[]args)	
 {
 	Trainer trainerKumar =new Trainer("CSE","payilagam");
 	
@@ -16,6 +15,7 @@ public static void main(String[]args)
 	}
 	public Trainer()
 	{
+		this("CSE","payilagam");
 		System.out.println("Trainer");
 		
 	}
